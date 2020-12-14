@@ -1,0 +1,42 @@
+/* stylelint-disable docusaurus/copyright-header
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+/*  */
+
+.customH1 {
+  padding-top: calc(2 * var(--ifm-spacing-vertical));
+  text-align: center;
+}
+
+.customH2 {
+  padding-top: calc(2 * var(--ifm-spacing-vertical));
+  text-align: center;
+}
+
+.customP {
+  text-align: center;
+}
+
+.customRow {
+  justify-content: center;
+}
+
+.customCol {
+  width: fit-content !important;
+  padding: 0 var(--ifm-spacing-vertical);
+}
+
+.customImage {
+  padding: var(--ifm-spacing-vertical);
+}
+
+.logoLink {
+  transition: opacity 0.15s ease-in-out;
+}
+
+.logoLink:hover {
+  opacity: 0.75;
+}
