@@ -25,7 +25,7 @@ function Support() {
               <div class="col col--3" className={styles.customCol}><a href='https://t.me/MassoudMaboudi'><img className={styles.logoLink} src={useBaseUrl('img/socialMedia/telegram.png')} alt="telegram" width="32" height="32" /></a></div>
               <div class="col col--3" className={styles.customCol}><a href='http://wa.me/60183757685'><img className={styles.logoLink} src={useBaseUrl('img/socialMedia/whatsapp.png')} alt="whatsapp" width="32" height="32" /></a></div>
               <div class="col col--3" className={styles.customCol}><a href='mailto:massoud.maboudi@gmail.com'><img className={styles.logoLink} src={useBaseUrl('img/socialMedia/email.png')} alt="email" width="32" height="32" /></a></div>
-              <div class="col col--3" className={styles.customCol}><a href='https://linkedin.com/in/massoud-maboudi'><img className={styles.logoLink} src={useBaseUrl('img/socialMedia/linkedIN.png')} alt="linkedin" width="32" height="32" /></a></div>
+              <div class="col col--3" className={styles.customCol}><a href='https://linkedin.com/in/massoud-maboudi'><img className={styles.logoLink} src={useBaseUrl('img/socialMedia/linkedin.png')} alt="linkedin" width="32" height="32" /></a></div>
             </div>
           </div>
         </div>
