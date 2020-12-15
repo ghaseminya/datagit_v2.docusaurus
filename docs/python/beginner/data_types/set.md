@@ -4,7 +4,7 @@ title: ست
 sidebar_label: ست
 hide_title: false
 hide_table_of_contents: false
-description: ست|دیتاگیر
+description: ست|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

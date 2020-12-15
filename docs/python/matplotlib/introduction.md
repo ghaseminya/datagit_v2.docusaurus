@@ -5,7 +5,7 @@ title: پایتون
 sidebar_label: معرفی پایتون
 hide_title: false
 hide_table_of_contents: false
-description: آموزش پایتون|دیتاگیر
+description: آموزش پایتون|دیتاگیت
 keywords:
   - آموزش مقدماتی پاتیون
   - آموزش پایتون

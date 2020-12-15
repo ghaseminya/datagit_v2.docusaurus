@@ -4,7 +4,7 @@ title: آناکوندا (Anaconda)
 sidebar_label: Anaconda
 hide_title: false
 hide_table_of_contents: false
-description: Anaconda|دیتاگیر
+description: Anaconda|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

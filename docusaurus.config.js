@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'دیتاگیر',
+  title: 'دیتاگیت',
   tagline: 'همیشه راه ساده تری هم هست.',
   url: 'https://datagit.ir',
   baseUrl: '/',
@@ -47,9 +47,9 @@ module.exports = {
       // dark or primary or just remove it and it will be light
       // style: 'primary',
 
-      title: 'دیتاگیر',
+      title: 'دیتاگیت',
       logo: {
-        alt: 'لوگو دیتاگیر',
+        alt: 'لوگو دیتاگیت',
         src: 'img/logo.svg',
         // srcDark: 'img/logo_dark.svg', // Default to `logo.src`.
         // href: 'https://datagit.ir/', // Default to `siteConfig.baseUrl`.
@@ -185,7 +185,7 @@ module.exports = {
         src: 'img/logoGray.svg',
         // href: 'https://opensource.facebook.com',
       },
-      copyright: `دیتاگیر ۱۳۹۷ - امروز`,
+      copyright: `دیتاگیت ۱۳۹۷ - امروز`,
     },
 
     // CodeBlock Theme,

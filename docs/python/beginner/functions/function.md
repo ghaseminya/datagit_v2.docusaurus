@@ -4,7 +4,7 @@ title: تابع
 sidebar_label: تابع
 hide_title: false
 hide_table_of_contents: false
-description: تابع|دیتاگیر
+description: تابع|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

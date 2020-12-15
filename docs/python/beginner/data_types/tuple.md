@@ -4,7 +4,7 @@ title: تاپل
 sidebar_label: تاپل
 hide_title: false
 hide_table_of_contents: false
-description: تاپل|دیتاگیر
+description: تاپل|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

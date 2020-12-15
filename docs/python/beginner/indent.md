@@ -4,7 +4,7 @@ title: فاصله گذاری
 sidebar_label: فاصله گذاری
 hide_title: false
 hide_table_of_contents: false
-description: فاصله گذاری|دیتاگیر
+description: فاصله گذاری|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

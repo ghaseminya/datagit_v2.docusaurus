@@ -4,7 +4,7 @@ title: عبارات منطقی
 sidebar_label: عبارات منطقی
 hide_title: false
 hide_table_of_contents: false
-description: عبارات منطقی|دیتاگیر
+description: عبارات منطقی|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

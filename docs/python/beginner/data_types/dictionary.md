@@ -4,7 +4,7 @@ title: دیکشنری
 sidebar_label: دیکشنری
 hide_title: false
 hide_table_of_contents: false
-description: دیکشنری|دیتاگیر
+description: دیکشنری|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

@@ -4,7 +4,7 @@ title: Jupyter Notebook
 sidebar_label: Jupyter Notebook
 hide_title: false
 hide_table_of_contents: false
-description: Jupyter Notebook|دیتاگیر
+description: Jupyter Notebook|دیتاگیت
 keywords:
   - آموزش مقدماتی Jupyter Notebook
   - آموزش Jupyter Notebook

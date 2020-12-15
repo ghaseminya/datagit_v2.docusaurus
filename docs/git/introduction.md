@@ -5,7 +5,7 @@ title: گیت
 sidebar_label: معرفی گیت
 hide_title: false
 hide_table_of_contents: false
-description: آموزش گیت|دیتاگیر
+description: آموزش گیت|دیتاگیت
 keywords:
   - آموزش مقدماتی Git
   - آموزش Git

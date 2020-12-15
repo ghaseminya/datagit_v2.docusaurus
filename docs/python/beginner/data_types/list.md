@@ -4,7 +4,7 @@ title: لیست
 sidebar_label: لیست
 hide_title: false
 hide_table_of_contents: false
-description: لیست|دیتاگیر
+description: لیست|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

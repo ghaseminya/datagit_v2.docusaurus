@@ -5,7 +5,7 @@ title: چرا یادگیری ماشین؟
 sidebar_label: یادگیری ماشین
 hide_title: false
 hide_table_of_contents: false
-description: آموزش یادگیری ماشین|دیتاگیر
+description: آموزش یادگیری ماشین|دیتاگیت
 keywords:
   - آموزش مقدماتی Git
   - آموزش Git

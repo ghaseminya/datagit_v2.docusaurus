@@ -5,7 +5,7 @@ title: مقدمه
 sidebar_label: مقدمه
 hide_title: false
 hide_table_of_contents: false
-description: آموزش مقدماتی پایتون|دیتاگیر
+description: آموزش مقدماتی پایتون|دیتاگیت
 keywords:
   - آموزش مقدماتی پاتیون
   - آموزش پایتون

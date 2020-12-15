@@ -4,7 +4,7 @@ title: حلقه های تکرار
 sidebar_label: حلقه های تکرار
 hide_title: false
 hide_table_of_contents: false
-description: حلقه های تکرار|دیتاگیر
+description: حلقه های تکرار|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

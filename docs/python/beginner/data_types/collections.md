@@ -4,7 +4,7 @@ title: کالکشن ها
 sidebar_label: کالکشن ها
 hide_title: false
 hide_table_of_contents: false
-description: کالکشن ها|دیتاگیر
+description: کالکشن ها|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

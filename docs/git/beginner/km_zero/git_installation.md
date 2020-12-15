@@ -4,7 +4,7 @@ title: نصب Git
 sidebar_label: نصب Git
 hide_title: false
 hide_table_of_contents: false
-description: نصب Git|دیتاگیر
+description: نصب Git|دیتاگیت
 keywords:
   - آموزش مقدماتی Git
   - آموزش Git

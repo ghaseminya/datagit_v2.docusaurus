@@ -4,7 +4,7 @@ title: متغیرها
 sidebar_label: متغیرها
 hide_title: false
 hide_table_of_contents: false
-description: متغیرها|دیتاگیر
+description: متغیرها|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

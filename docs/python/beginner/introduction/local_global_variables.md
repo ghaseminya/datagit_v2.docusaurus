@@ -4,7 +4,7 @@ title: متغیرهای محلی و سراسری
 sidebar_label: متغیرهای محلی و سراسری
 hide_title: false
 hide_table_of_contents: false
-description: متغیرهای محلی و سراسری|دیتاگیر
+description: متغیرهای محلی و سراسری|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

@@ -4,7 +4,7 @@ title: رشته
 sidebar_label: رشته
 hide_title: false
 hide_table_of_contents: false
-description: رشته|دیتاگیر
+description: رشته|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

@@ -5,7 +5,7 @@ title: مقدمه
 sidebar_label: مقدمه
 hide_title: false
 hide_table_of_contents: false
-description: آموزش مقدماتی R|دیتاگیر
+description: آموزش مقدماتی R|دیتاگیت
 keywords:
   - آموزش مقدماتی R
   - آموزش R

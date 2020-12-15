@@ -4,7 +4,7 @@ title: توابع پرکاربرد
 sidebar_label: توابع پرکاربرد
 hide_title: false
 hide_table_of_contents: false
-description: توابع پرکاربرد|دیتاگیر
+description: توابع پرکاربرد|دیتاگیت
 keywords:
   - آموزش مقدماتی Anaconda
   - آموزش Anaconda

@@ -4,7 +4,7 @@ title: نصب پایتون
 sidebar_label: نصب پایتون
 hide_title: false
 hide_table_of_contents: false
-description: نصب پایتون|دیتاگیر
+description: نصب پایتون|دیتاگیت
 keywords:
   - آموزش مقدماتی پاتیون
   - آموزش پایتون
