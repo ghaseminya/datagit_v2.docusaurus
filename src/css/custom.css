@@ -7,13 +7,14 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #007bff;
-  --ifm-color-primary-dark: #006fe6;
-  --ifm-color-primary-darker: #0069d9;
-  --ifm-color-primary-darkest: #0056b3;
-  --ifm-color-primary-light: #1a88ff;
-  --ifm-color-primary-lighter: #268fff;
-  --ifm-color-primary-lightest: #4da3ff;
+
+  --ifm-color-primary: #203a43;
+  --ifm-color-primary-dark: #1d343c;
+  --ifm-color-primary-darker: #1b3139;
+  --ifm-color-primary-darkest: #16292f;
+  --ifm-color-primary-light: #23404a;
+  --ifm-color-primary-lighter: #25434d;
+  --ifm-color-primary-lightest: #2a4b57;
 
   --ifm-code-font-size: 95%;
 }
@@ -107,6 +108,16 @@ html[data-theme="dark"] {
 
 img {
   border-radius: var(--ifm-global-radius);
+}
+
+/* DocSidebar */
+
+.menu__link {
+  font-weight: 300;
+}
+
+.menu__link--active {
+  font-weight: 500;
 }
 
 /* DocsPagination */

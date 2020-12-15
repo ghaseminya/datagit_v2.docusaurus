@@ -32,7 +32,7 @@ function Home() {
       </header>
       <footer className={clsx('hero hero--primary', styles.heroFooter)}>
         <div className="container">
-          <p className={styles.customHero__subtitle}>Massoud Maboudi - Datagir.ir © 2018</p>
+          <p className={styles.customHero__subtitle}>Massoud Maboudi - Datagit.ir © 2018</p>
         </div>
       </footer>
     </Layout>

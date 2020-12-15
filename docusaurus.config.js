@@ -1,13 +1,13 @@
 module.exports = {
   title: 'دیتاگیر',
   tagline: 'همیشه راه ساده تری هم هست.',
-  url: 'https://datagir.ir',
+  url: 'https://datagit.ir',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
-  projectName: 'datagir', // Usually your repo name.
+  projectName: 'datagit', // Usually your repo name.
   themeConfig: {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
@@ -51,8 +51,8 @@ module.exports = {
       logo: {
         alt: 'لوگو دیتاگیر',
         src: 'img/logo.svg',
-        srcDark: 'img/logo_dark.svg', // Default to `logo.src`.
-        // href: 'https://datagir.ir/', // Default to `siteConfig.baseUrl`.
+        // srcDark: 'img/logo_dark.svg', // Default to `logo.src`.
+        // href: 'https://datagit.ir/', // Default to `siteConfig.baseUrl`.
         // target: '_self', // By default, this value is calculated based on the `href` attribute (the external link will open in a new tab, all others in the current one).
       },
       items: [
