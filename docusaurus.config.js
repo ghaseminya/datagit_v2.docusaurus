@@ -13,16 +13,16 @@ module.exports = {
     // Cannot be SVGs. Can be external URLs too.
     image: 'img/metaImage.png',
 
-    googleAnalytics: {
-      trackingID: 'UA-134554702-1',
-      // Optional fields.
-      // anonymizeIP: true, // Should IPs be anonymized?
-    },
-    // gtag: {
-    //   trackingID: 'UA-134554702-1',
+    // googleAnalytics: {
+    //   trackingID: 'G-98VZHCYVG8',
     //   // Optional fields.
     //   // anonymizeIP: true, // Should IPs be anonymized?
     // },
+    gtag: {
+      trackingID: 'G-98VZHCYVG8',
+      // Optional fields.
+      // anonymizeIP: true, // Should IPs be anonymized?
+    },
     // announcementBar: {
     //   id: 'support_us', // Any value that will identify this message.
     //   content:
@@ -236,9 +236,14 @@ module.exports = {
         steps: 4, // the max number of images generated between min and max (inclusive)
       },
     ],
-    ['@docusaurus/plugin-google-analytics',
+    // ['@docusaurus/plugin-google-analytics',
+    //   {
+    //     id: 'ganalytics'
+    //   }
+    // ],
+    ['@docusaurus/plugin-google-gtag',
       {
-        id: 'ganalytics'
+        id: 'gtag'
       }
     ],
     [
