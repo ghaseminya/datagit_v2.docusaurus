@@ -43,6 +43,17 @@ html[data-theme="dark"] {
 
 /* Navbar */
 
+.navbar-sidebar {
+  transform: translateX(100%);
+  right: 0;
+  left: auto;
+}
+
+.navbar-sidebar--show .navbar-sidebar {
+  right: 0;
+  left: auto;
+}
+
 .navbar__link {
   font-weight: 300;
 }
@@ -53,7 +64,7 @@ html[data-theme="dark"] {
   border-radius: var(--ifm-global-radius);
 }
 
-/* Sidebar */
+/* DocSidebar */
 
 .menu__list {
   padding-right: 0;
@@ -64,14 +75,19 @@ html[data-theme="dark"] {
   margin-right: var(--ifm-menu-link-padding-horizontal);
 }
 
-/* DocSidebar */
-
 .menu__link {
   font-weight: 300;
 }
 
 .menu__link--active {
   font-weight: 500;
+}
+
+.menu--responsive .menu__button {
+  background: var(--ifm-color-secondary);
+  right: auto;
+  left: 1rem;
+  z-index: 1;
 }
 
 /* DocsPagination */
@@ -198,3 +214,4 @@ html[data-theme="dark"] {
       url("/fonts/nunito-sans-v6-latin/nunito-sans-v6-latin-regular.svg#NunitoSans")
       format("svg"); /* Legacy iOS */
 }
+

@@ -119,7 +119,3 @@
 :global(.menu__list-item--collapsed) :global(.menu__list) {
   height: 0px !important;
 }
-
-.menu__button {
-  background: var(--ifm-color-secondary);
-}

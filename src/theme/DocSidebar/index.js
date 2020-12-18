@@ -187,7 +187,7 @@ function DocSidebar({
       'menu--show': showResponsiveSidebar,
       [styles.menuWithAnnouncementBar]: !isAnnouncementBarClosed && scrollY === 0
     })}>
-      <button aria-label={showResponsiveSidebar ? 'Close Menu' : 'Open Menu'} aria-haspopup="true" className={clsx(styles.menu__button, "button button--secondary button--sm menu__button")} type="button" onClick={() => {
+      <button aria-label={showResponsiveSidebar ? 'Close Menu' : 'Open Menu'} aria-haspopup="true" className="button button--secondary button--sm menu__button" type="button" onClick={() => {
         setShowResponsiveSidebar(!showResponsiveSidebar);
       }}>
         {showResponsiveSidebar ? <span className={clsx(styles.sidebarMenuIcon, styles.sidebarMenuCloseIcon)}>

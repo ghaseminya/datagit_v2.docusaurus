@@ -79,25 +79,22 @@ function Navbar() {
   })}>
     <div className="navbar__inner">
       <div className="navbar__items">
-        {/* {items != null && items.length !== 0 && <div aria-label="Navigation bar toggle" className={clsx(styles.navbar__toggle, "navbar__toggle")} role="button" tabIndex={0} onClick={showSidebar} onKeyDown={showSidebar}>
-              <IconMenu />
-            </div>} */}
+        {items != null && items.length !== 0 && <div aria-label="Navigation bar toggle" className={clsx(styles.navbar__toggle, "navbar__toggle")} role="button" tabIndex={0} onClick={showSidebar} onKeyDown={showSidebar}>
+          <IconMenu />
+        </div>}
         <Logo className={clsx(styles.navbar__brand, "navbar__brand")} imageClassName={clsx(styles.navbar__logo, "navbar__logo")} titleClassName={clsx('navbar__title', {
           [styles.hideLogoText]: isSearchBarExpanded
         })} />
         {leftItems.map((item, i) => <NavbarItem {...item} key={i} />)}
       </div>
       <div className="navbar__items navbar__items--right">
-        {items != null && items.length !== 0 && <div aria-label="Navigation bar toggle" className={clsx(styles.navbar__toggle, "navbar__toggle")} role="button" tabIndex={0} onClick={showSidebar} onKeyDown={showSidebar}>
-          <IconMenu />
-        </div>}
         {rightItems.map((item, i) => <NavbarItem {...item} key={i} />)}
         {!disableColorModeSwitch && <Toggle className={styles.displayOnlyInLargeViewport} aria-label="Dark mode toggle" checked={isDarkTheme} onChange={onToggleChange} />}
         <SearchBar handleSearchBarToggle={setIsSearchBarExpanded} isSearchBarExpanded={isSearchBarExpanded} />
       </div>
     </div>
     <div role="presentation" className="navbar-sidebar__backdrop" onClick={hideSidebar} />
-    <div className="navbar-sidebar">
+    <div className={clsx(styles.navbar__sidebar, "navbar-sidebar")}>
       <div className="navbar-sidebar__brand">
         <Logo className={clsx(styles.navbar__brand, "navbar__brand")} imageClassName={clsx(styles.navbar__logo, "navbar__logo")} titleClassName="navbar__title" onClick={hideSidebar} />
         {!disableColorModeSwitch && sidebarShown && <Toggle aria-label="Dark mode toggle in sidebar" checked={isDarkTheme} onChange={onToggleChange} />}
