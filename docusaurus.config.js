@@ -12,7 +12,7 @@ module.exports = {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
     image: 'img/metaImage.png',
-
+    hideableSidebar: true,
     // googleAnalytics: {
     //   trackingID: 'G-98VZHCYVG8',
     //   // Optional fields.

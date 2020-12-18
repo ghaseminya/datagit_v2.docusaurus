@@ -28,7 +28,7 @@
 }
 
 .heroFooter {
-  padding:1.8rem 0;
+  padding: 1.8rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -50,12 +50,12 @@
 }
 
 .hero__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .hero__subtitle {
   text-align: center;
-  /* font-weight: 200; */
+  font-weight: 300;
 }
 
 .customHero__subtitle {
@@ -80,20 +80,9 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.getStarted:hover,
+.getStarted:active {
+  background: var(--ifm-color-secondary-darkest);
+  border-color: var(--ifm-color-secondary-darkest);
 }
 
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-}
-
-.featureImage {
-  height: 100px;
-  width: 100px;
-}

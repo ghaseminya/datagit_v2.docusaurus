@@ -11,23 +11,21 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-    noFooter={true}
+      noFooter={true}
       title={`صفحه اصلی`}
-      description="Description will go into a meta tag in <head />">
+      description="وبسایت دیتاگیت برای این راه اندازی شده که شاید کمک کوچکی باشه برای کسانی که دوست دارند برنامه نویسی رو یاد بگیرن ولی همیشه فکر میکنن که کار سختیه! توی این وبسایت به هم کمک میکنیم تا مسیر یادگیری رو برای همدیگه آسان تر کنیم.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className={styles.hero__title}>مسعود معبودی</h1>
           <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              شروع کنیم
+          <Link
+            className={clsx(
+              'button button--outline button--secondary button--lg',
+              styles.getStarted,
+            )}
+            to={useBaseUrl('docs/')}>
+            شروع کنیم
             </Link>
-          </div>
         </div>
       </header>
       <footer className={clsx('hero hero--primary', styles.heroFooter)}>

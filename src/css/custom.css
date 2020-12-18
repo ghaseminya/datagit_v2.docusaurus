@@ -7,7 +7,6 @@
 
 /* You can override the default Infima variables here. */
 :root {
-
   --ifm-color-primary: #203a43;
   --ifm-color-primary-dark: #1d343c;
   --ifm-color-primary-darker: #1b3139;
@@ -27,9 +26,8 @@ p {
   background: white;
 }
 
-.button:hover {
-  background: #bdc3c7;
-  border-color: #bdc3c7;
+img {
+  border-radius: var(--ifm-global-radius);
 }
 
 /* When the theme is dark. */
@@ -45,16 +43,6 @@ html[data-theme="dark"] {
 
 /* Navbar */
 
-.navbar__brand {
-  margin-right: 0;
-  margin-left: 1rem;
-}
-
-.navbar__logo {
-  margin-right: 0;
-  margin-left: 0.5rem;
-}
-
 .navbar__link {
   font-weight: 300;
 }
@@ -63,21 +51,6 @@ html[data-theme="dark"] {
   margin-left: 0;
   margin-right: 0.3em;
   border-radius: var(--ifm-global-radius);
-}
-
-@media (min-width: 997px) {
-  .sidebarLogo_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-
-    img {
-    margin-right: 0 !important;
-    margin-left: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 966px) {
-  .navbar__toggle {
-    margin-right: 0;
-    margin-left: 0.5rem;
-  }
 }
 
 /* Sidebar */
@@ -89,25 +62,6 @@ html[data-theme="dark"] {
 .menu__list .menu__list {
   margin-left: 0;
   margin-right: var(--ifm-menu-link-padding-horizontal);
-}
-
-/* TOC */
-
-.table-of-contents,
-.table-of-contents ul {
-  padding-left: 0;
-  padding-right: var(--ifm-toc-padding-left);
-}
-
-.table-of-contents__left-border {
-  border-left: none;
-  border-right: 1px solid var(--ifm-toc-border-color);
-}
-
-/* DocItem */
-
-img {
-  border-radius: var(--ifm-global-radius);
 }
 
 /* DocSidebar */
@@ -128,6 +82,19 @@ img {
   text-align: left;
 }
 
+/* TOC */
+
+.table-of-contents,
+.table-of-contents ul {
+  padding-left: 0;
+  padding-right: var(--ifm-toc-padding-left);
+}
+
+.table-of-contents__left-border {
+  border-left: none;
+  border-right: 1px solid var(--ifm-toc-border-color);
+}
+
 /* Admonitions */
 
 .admonition-icon {
@@ -136,6 +103,23 @@ img {
 }
 
 /* Fonts */
+
+/* Iran Sans V5.5 Web - UltraLight */
+@font-face {
+  font-family: "Iran Sans";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.eot"),
+    /* IE9 Compat Modes */
+      url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.woff") format("woff"),
+    /* Modern Browsers */ url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.ttf")
+      format("truetype");
+}
 
 /* Iran Sans V5.5 Web - Light*/
 @font-face {
@@ -154,23 +138,6 @@ img {
       format("truetype");
 }
 
-/* Iran Sans V5.5 Web - Light*/
-@font-face {
-  font-family: "Iran Sans";
-  font-style: normal;
-  font-weight: 100;
-  src: url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.eot"),
-    /* IE9 Compat Modes */
-      url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.woff") format("woff"),
-    /* Modern Browsers */ url("/fonts/IRANSans5.5/IRANSansWeb_UltraLight.ttf")
-      format("truetype");
-}
-
 /* Iran Sans V5.5 Web*/
 @font-face {
   font-family: "Iran Sans";
@@ -183,21 +150,6 @@ img {
     /* Super Modern Browsers */ url("/fonts/IRANSans5.5/IRANSansWeb.woff")
       format("woff"),
     /* Modern Browsers */ url("/fonts/IRANSans5.5/IRANSansWeb.ttf")
-      format("truetype");
-}
-
-/* Vazir V22.0.0*/
-@font-face {
-  font-family: "Vazir";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/vazir-font-v22.0.0/Vazir.eot"),
-    /* IE9 Compat Modes */ url("/fonts/vazir-font-v22.0.0/Vazir.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("/fonts/vazir-font-v22.0.0/Vazir.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/vazir-font-v22.0.0/Vazir.woff")
-      format("woff"),
-    /* Modern Browsers */ url("/fonts/vazir-font-v22.0.0/Vazir.ttf")
       format("truetype");
 }
 
