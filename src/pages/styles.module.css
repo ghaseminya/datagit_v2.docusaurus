@@ -67,10 +67,6 @@
 }
 
 @media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-
   .hero__title {
     font-size: 2rem;
   }
@@ -85,4 +81,3 @@
   background: var(--ifm-color-secondary-darkest);
   border-color: var(--ifm-color-secondary-darkest);
 }
-
