@@ -30,10 +30,6 @@ img {
   border-radius: var(--ifm-global-radius);
 }
 
-/* When the theme is dark. */
-html[data-theme="dark"] {
-}
-
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
