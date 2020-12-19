@@ -7,7 +7,7 @@
 /*  */
 
 .heroBanner {
-  /* padding: 4rem 0; */
+  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -25,7 +25,6 @@
     #0f2027
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  height: calc(calc(100vh - var(--ifm-navbar-height)) / 2);
 }
 
 .hero__title {
@@ -60,6 +59,7 @@
 }
 
 .social__media_features {
+  padding: 0 0 2rem;
 }
 
 .social__media_pic {
@@ -72,10 +72,6 @@
 }
 
 @media screen and (max-width: 966px) {
-
-  .heroBanner {
-    height: auto;
-  }
 
   .hero__title {
     font-size: 2rem;
