@@ -80,7 +80,7 @@ function Support() {
           <p className={styles.hero__subtitle}>راستی، راجع به همکاری هم میتونیم صحبت کنیم.</p>
         </div>
       </header>
-      <main>
+      <main className={styles.main_features}>
         {profilePicture && profilePicture.length > 0 && (
           <section className={styles.profile__picture_features}>
             <div className={"container"}>
@@ -102,6 +102,11 @@ function Support() {
           </section>
         )}
       </main>
+      <footer className={clsx('hero hero--primary', styles.heroFooter)}>
+        <div className="container">
+          <p className={styles.customHero__subtitle}>Massoud Maboudi - Datagit.ir © 2018</p>
+        </div>
+      </footer>
     </Layout>
   );
 }
