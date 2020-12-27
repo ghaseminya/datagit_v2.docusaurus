@@ -257,4 +257,10 @@ module.exports = {
       },
     ],
   ],
+  scripts: [
+    {
+      src: 'https://unpkg.com/react-medium-image-zoom',
+      async: true,
+    }
+  ],
 };
