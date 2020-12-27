@@ -67,7 +67,7 @@ import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 ## **چرا برنامه نویسی مهمه؟**
 
   <div className="col padding-vert--lg">
-    <Zoom>
+    <Zoom zoomMargin={80}>
       <Image img={img1} />
     </Zoom>
   </div>
@@ -109,7 +109,7 @@ import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 سایت [stackoverflow.com](https://stackoverflow.com) هر سال یه مقاله منتشر میکنه که توی اون راجع به خیلی چیزا صحبت میکنه. مثلا راجع به کشور های مختلف و رشته های مورد نیاز در اونها به تفکیک جنسیت و سن و خیلی فاکتورهای دیگه. یه قسمت جالبش راجع به زبان های برنامه نویسی هست که توی اون سال استفاده شدن. گراف زیر برای سال ۲۰۲۰ هستش.
 
   <div className="col padding-vert--lg">
-    <Zoom>
+    <Zoom zoomMargin={80}>
       <Image img={img2} />
     </Zoom>
   </div>

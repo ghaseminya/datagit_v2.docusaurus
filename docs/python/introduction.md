@@ -44,7 +44,7 @@ import img1 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 سایت [stackoverflow.com](https://stackoverflow.com) یه تصویر خوبی به ما میده برای شروع که نشون میده زبان برنامه نویسی پایتون توی سال ۲۰۲۰ جزو ۵ زبان برنامه نویسی برتر دنیا هستش.
 
   <div className="col padding-vert--lg">
-    <Zoom>
+    <Zoom zoomMargin={80}>
       <Image img={img1} />
     </Zoom>
   </div>
