@@ -66,11 +66,11 @@ import img2 from '@site/static/img/general/startingpoint/stackoverflow-survey-20
 
 ## **چرا برنامه نویسی مهمه؟**
 
-  <div className="col padding-vert--lg">
-    <Zoom zoomMargin={80}>
-      <Image img={img1} />
-    </Zoom>
-  </div>
+<div className="col padding-vert--lg">
+  <Zoom zoomMargin={80}>
+    <Image img={img1} />
+  </Zoom>
+</div>
 
 یه مدتیه که آدمای زیادی از جمله دوستای خودم دوست دارن برن دنبال برنامه نویسی. رشته دانشگاهیشون نیستا، فقط دوست دارن برن یاد بگیرن. دلیلش به خودشون مربوطه ولی، آیا چون بقیه میخوان برنامه نویسی یاد بگیرن، شما هم حتما باید یاد بگیرید؟‌ حالا من میخوام راجع به چندتا مسئله صحبت کنم که به نظر من چرا باید شما برنامه نویسی یاد بگیرید حتی اگه نخواید برنامه نویس بشید:
 
