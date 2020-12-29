@@ -72,6 +72,7 @@ function Support() {
       noFooter={true}
       title="تماس با من"
       description="توی این صفحه میتونید راه های ارتباط با من رو پیدا کنید. میتونید نظرتون رو بهم بگید یا اینکه یه آموزش جدید درخواست بدید. راستی، راجع به همکاری هم میتونیم صحبت کنیم."
+      keywords={['مسعود معبودی', 'Massoud Maboudi', 'دیتاگیت', 'datagit', 'datagit.ir', 'مسعود معبودی رزومه', 'رزومه مسعود معبودی', 'Massoud Maboudi profile', 'دیتا گیت', 'مسعود معبودی دیتا گیت']}
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
