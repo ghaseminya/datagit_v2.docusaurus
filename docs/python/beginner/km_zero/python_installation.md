@@ -25,12 +25,12 @@ image: "/img/python/python-logo.svg"
 import Image from '@theme/IdealImage';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
-import img1 from '@site/static/img/python/beginner/python-installation/python-beginner-introduction-1.png';
-import img2 from '@site/static/img/python/beginner/python-installation/python-beginner-introduction-2.png';
-import img3 from '@site/static/img/python/beginner/python-installation/python-beginner-introduction-3.png';
-import img4 from '@site/static/img/python/beginner/python-installation/python-beginner-introduction-4.png';
-import img5 from '@site/static/img/python/beginner/python-installation/python-beginner-introduction-5.png';
-import img6 from '@site/static/img/python/beginner/python-installation/python-beginner-introduction-6.png';
+import img1 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-1.png';
+import img2 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-2.png';
+import img3 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-3.png';
+import img4 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-4.png';
+import img5 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-5.png';
+import img6 from '@site/static/img/python/beginner/km_zero/python_installation/python-installation-6.png';
 
 ## **دانلود پایتون**
 
