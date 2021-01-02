@@ -8,6 +8,8 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
   projectName: 'datagit', // Usually your repo name.
+  // onBrokenLinks:'ignore',
+  // onBrokenMarkdownLinks:'ignore',
   themeConfig: {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
@@ -116,7 +118,7 @@ module.exports = {
           label: "تماس با من",
           position: "right",
         },
-        // { to: 'blog', label: 'بلاگ', position: 'left' },
+        { to: 'blog', label: 'بلاگ', position: 'right' },
         {
           // href: 'https://github.com/facebook/docusaurus',
           // label: 'GitHub',
@@ -218,7 +220,10 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
+          blogTitle: 'وبلاگ دیتاگیت!',
+          blogDescription: 'جایی برای خواندن همه چیز!',
           showReadingTime: true,
+          blogSidebarTitle: 'مطالب اخیر'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

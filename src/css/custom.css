@@ -114,6 +114,13 @@ img {
   margin-left: 0.2rem;
 }
 
+/* Blog */
+
+.avatar__photo + .avatar__intro {
+  margin-left: 0;
+  margin-right: var(--ifm-avatar-intro-margin);
+}
+
 /* Fonts */
 
 /* Iran Sans V5.5 Web - UltraLight */
@@ -210,4 +217,3 @@ img {
       url("/fonts/nunito-sans-v6-latin/nunito-sans-v6-latin-regular.svg#NunitoSans")
       format("svg"); /* Legacy iOS */
 }
-
