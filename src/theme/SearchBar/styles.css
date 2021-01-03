@@ -16,5 +16,5 @@
 }
 
 .DocSearch-Container {
-  direction: ltr;
+  direction: ltr !important;
 }
