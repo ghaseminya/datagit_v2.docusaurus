@@ -37,6 +37,10 @@ img {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.tabs {
+  direction: ltr;
+}
+
 /* Navbar */
 
 .navbar-sidebar {

@@ -27,10 +27,13 @@ keywords:
 tags: [macOS, Homebrew]
 image: "/img/python/python-logo.svg"
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 import Image from '@theme/IdealImage';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import img1 from '@site/static/img/blog/2021-01-02-homebrew-installation/2021-01-02-homebrew-installation-1.png';
+import img2 from '@site/static/img/blog/2021-01-02-homebrew-installation/2021-01-02-homebrew-installation-2.png';
 
 <div className="col padding-vert--lg">
   <Zoom zoomMargin={80}>
@@ -55,8 +58,48 @@ xcode-select --install
 وقتی که تموم شد نصب Xcode، باید بریم سراغ Homebrew. دستور زیر رو توی ترمینال بزنید:
 
 ```bash  title="Terminal"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+توی این قسمت باید با توجه به مدل MacBook، کد مورد نظر رو اجرا کنید.
+
+اپل در حال حاضر دو مدل Chipset تولید میکنه. سری اول که همون سری Intel هستش و مدل جدیدتر که به اسم سری M شناخته میشه. برای اینکه ببینید MacBook شما از کدوم سری هست، باید توی صفحه دسکتاپ، قسمت بالا سمت چپ، روی آیکون Apple کلیک کنید. بعدش گزینه About This Mac رو بزنید. یکی از دوتا شکل پایین رو میبینید:
+
+<div className="col padding-vert--lg">
+  <Zoom zoomMargin={80}>
+    <Image img={img2} />
+  </Zoom>
+</div>
+
+اگر توی قسمت Processor مثل شکل سمت راست کلمه Intel رو دیدید یعنی chipset شما Intel هستش وگرنه که اگر مثل شکل سمت چپ باشه، chipset شما از سری جدید M هستش.
+
+حالا با توجه به این کشف بزرگ، کد مورد نظر رو از قسمت زیر کپی کنید:
+
+<Tabs
+  defaultValue="intel"
+  values={[
+    { label: 'Mac with Intel chip', value: 'intel', },
+    { label: 'Mac with M1 chip', value: 'm1', },
+  ]
+}>
+
+<TabItem value="intel">
+
+```bash title="Terminal"
+echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
+source ~/.bash_profile
+```
+
+</TabItem>
+<TabItem value="m1">
+
+```bash title="Terminal"
+echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.bash_profile
+source ~/.bash_profile
+```
+
+</TabItem>
+</Tabs>
 
 وقتی که تموم شد نصبش، برای اینکه ببینیم کارمون درست بوده یا نه، دستور زیر رو بزنید:
 
