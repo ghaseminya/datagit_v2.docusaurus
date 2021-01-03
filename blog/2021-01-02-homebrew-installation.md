@@ -55,7 +55,7 @@ xcode-select --install
 وقتی که تموم شد نصب Xcode، باید بریم سراغ Homebrew. دستور زیر رو توی ترمینال بزنید:
 
 ```bash  title="Terminal"
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 وقتی که تموم شد نصبش، برای اینکه ببینیم کارمون درست بوده یا نه، دستور زیر رو بزنید:
