@@ -199,18 +199,18 @@ module.exports = {
       // darkTheme: require('prism-react-renderer/themes/vsDark'),
     },
 
-    // algolia: {
-    //   apiKey: 'YOUR_API_KEY',
-    //   indexName: 'YOUR_INDEX_NAME',
+    algolia: {
+      apiKey: '70b38347b2c6ca47a5bfd5cc6cd173b0',
+      indexName: 'datagit',
 
-    //   // Optional: see doc section bellow
-    //   contextualSearch: true,
+      // Optional: see doc section bellow
+      contextualSearch: true,
 
-    //   // Optional: Algolia search parameters
-    //   searchParameters: {},
+      // Optional: Algolia search parameters
+      // searchParameters: {},
 
-    //   //... other Algolia params
-    // },
+      //... other Algolia params
+    },
   },
   presets: [
     [
