@@ -5,11 +5,10 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  // onBrokenMarkdownLinks:'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
   projectName: 'datagit', // Usually your repo name.
-  // onBrokenLinks:'ignore',
-  // onBrokenMarkdownLinks:'ignore',
   themeConfig: {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
